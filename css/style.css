@@ -91,6 +91,7 @@ img {
 .header .container {
     display: flex;
     align-items: center;
+
 }
 
 .header-nav {
@@ -107,22 +108,7 @@ img {
     display: flex;
     align-items: center;
     gap: 40px;
-
-    position: relative;
-    color: #404bbf;
 }
-
-.header-list::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
-
-
 
 .header-link {
     padding: 24px 0;
@@ -218,11 +204,16 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--hero-color);
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color) ;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
     cursor: pointer;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+
+    
 }
 
 .hero-btn:hover,
@@ -412,6 +403,7 @@ img {
     fill: var(--footer-color);
     width: 16px;
     height: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*--------------------customers------------------- */
