@@ -115,15 +115,16 @@ img {
     padding: 24px 0;
     display: block;
     position: relative;
+    color: var(--ocean-color);
 }
 
-.header-item::after {
+.header-link::after {
     content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
-    background-color: #404bbf;
+    background-color: var(--ocean-color);
     border-radius: 2px;
 }
 
