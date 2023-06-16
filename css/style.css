@@ -134,7 +134,8 @@ img {
     color: var(--ocean-color);
 }
 
-.header-link::after {
+
+.current-link::after {
     content: '';
     width: 100%;
     position: absolute;
