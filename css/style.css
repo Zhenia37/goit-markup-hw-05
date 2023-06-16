@@ -639,7 +639,7 @@ img {
     transform: translateY(0);
 }
 
-.examples-item:focus .examples-cover-text {
+.examples-link:focus .examples-cover-text {
     transform: translateY(0);
 }
 
