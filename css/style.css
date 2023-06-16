@@ -136,12 +136,17 @@ img {
 
 .header-link::after {
     content: '';
+    width: 100%;
     position: absolute;
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: var(--ocean-color);
     border-radius: 2px;
+}
+
+.current-link {
+    color: var(--ocean-color);
 }
 
 .header-address {
